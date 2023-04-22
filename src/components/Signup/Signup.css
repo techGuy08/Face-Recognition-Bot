@@ -1,0 +1,77 @@
+.Signup-wrapper {
+  padding: 0 20px;
+  animation: fadeInUp 1s 1 forwards;
+}
+.Signup-form {
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 40px 30px 20px;
+  border-radius: 5px;
+}
+.Signup-content .form-control {
+  margin-bottom: 30px;
+}
+.Signup-content .form-control .MuiInputBase-root {
+  height: 45px;
+}
+.Signup-content label,
+.Signup-content label.Mui-focused {
+  color: #000;
+}
+.Signup-content .MuiInput-underline:after {
+  border-bottom-color: #000;
+}
+
+.Signup-content .MuiOutlinedInput-root fieldset {
+  border-color: #000;
+}
+.Signup-content .MuiOutlinedInput-root:hover fieldset {
+  border-color: #000;
+}
+
+.Signup-content .MuiOutlinedInput-root.Mui-focused fieldset {
+  border-color: #000;
+}
+.Signup-content .MuiInputLabel-outlined {
+  transform: translate(14px, 15px) scale(1);
+}
+
+.Signup-content .title {
+  text-align: center;
+  margin: 40px 0;
+  font-size: 3rem;
+}
+.form-text {
+  text-align: center;
+  font-size: 1.1rem;
+}
+.form-text a {
+  color: #444;
+  text-decoration: none;
+}
+.Signup-content .Signup-btn {
+  border: 1px solid transparent;
+  margin: 0 auto 20px;
+  font-size: 1.1rem;
+  transition: 0.3s;
+  font-weight: 500;
+  text-transform: capitalize;
+  width: 60%;
+  display: block;
+  background: #444;
+  color: #fff;
+}
+.Signup-btn:hover {
+  border-color: #444;
+  color: #444;
+}
+@keyframes fadeInUp {
+  0% {
+    opacity: 0.3;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+

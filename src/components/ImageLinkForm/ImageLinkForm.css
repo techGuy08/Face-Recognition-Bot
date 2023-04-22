@@ -1,0 +1,28 @@
+
+.LinkForm {
+  max-width: 700px;
+  margin: 10px auto;
+  padding: 5px 30px 15px;
+  background: #fff;
+  border-radius: 5px;
+  background-color: #fff;
+}
+.imageLinkForm .headline {
+  padding: 20px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+  color: #000;
+  text-align: center;
+}
+.imageLinkForm .input-group {
+  padding: 10px 0;
+}
+.imageLinkForm .btn-detect {
+  display: block;
+  width: 26%;
+  padding: 9px 5px;
+  margin: 0px auto 12px;
+  font-size: 20px;
+  min-width: 180px;
+  text-transform: capitalize;
+}

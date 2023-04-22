@@ -1,0 +1,28 @@
+.logo-wrapper {
+  position: absolute;
+}
+.logo-wrapper .Tilt {
+  width: 150px;
+  height: 150px;
+  background: linear-gradient(89deg, #ff5edf 0%, #04c8de 100%); /* w3c */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  transition: .3s;
+}
+.logo-wrapper .Tilt-inner {
+  width: 100%;
+}
+.logo-wrapper img {
+  width: 67%;
+  display: block;
+  margin: 0 auto;
+}
+
+@media screen and (max-width:769px){
+  .logo-wrapper .Tilt{
+    width: 80px;
+    height: 80px;
+  }
+}
